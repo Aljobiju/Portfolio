@@ -5,7 +5,7 @@
 <!-- Mirrored from slimhamdi.net/tunis/dark/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 06:55:06 GMT -->
 <head>
     <meta charset="utf-8">
-    <title>Contact - Tunis Personal Portfolio</title>
+    <title>Personal Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Template Google Fonts -->
@@ -102,8 +102,8 @@
         </li>
         <li class="icon-box">
             <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
-                <h2>Portfolio</h2>
+            <a href="project.html">
+                <h2>Project</h2>
             </a>
         </li>
         <li class="icon-box active">
@@ -112,12 +112,12 @@
                 <h2>Contact</h2>
             </a>
         </li>
-        <li class="icon-box">
+        <!-- <li class="icon-box">
             <i class="fa fa-comments"></i>
             <a href="blog.html">
                 <h2>Blog</h2>
             </a>
-        </li>
+        </li> -->
     </ul>
     <!-- Fixed Navigation Ends -->
     <!-- Mobile Menu Starts -->
@@ -130,9 +130,9 @@
             <ul class="list-unstyled" id="menu">
                 <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
                 <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="project.html"><i class="fa fa-folder-open"></i><span>Project</span></a></li>
                 <li class="active"><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                <!-- <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li> -->
             </ul>
         </div>
     </nav>
@@ -155,44 +155,47 @@
                 <p class="open-sans-font mb-3">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                 <p class="open-sans-font custom-span-contact position-relative">
                     <i class="fa fa-envelope-open position-absolute"></i>
-                    <span class="d-block">mail me</span>steve@mail.com
+                    <span class="d-block">mail me</span>aljovadackel@gmail.com
                 </p>
                 <p class="open-sans-font custom-span-contact position-relative">
                     <i class="fa fa-phone-square position-absolute"></i>
-                    <span class="d-block">call me</span>+216 21 184 010
+                    <span class="d-block">call me</span>+91 9061673186
                 </p>
                 <ul class="social list-unstyled pt-1 mb-5">
-                    <li class="facebook"><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <li class="linkedin"><a title="Linkedin" href="https://www.linkedin.com/in/aljo-biju/"><i class="fa fa-linkedin"></i></a>
                     </li>
-                    <li class="twitter"><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <li class="github"><a title="Github" href="https://github.com/Aljobiju"><i class="fa fa-github"></i></a>
                     </li>
-                    <li class="youtube"><a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
+                    <!-- <li class="youtube"><a title="Youtube" href="#"><i class="fa fa-youtube"></i></a>
                     </li>
                     <li class="dribbble"><a title="Dribbble" href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form class="contactform" method="post" action="https://slimhamdi.net/tunis/dark/php/process-form.php">
+                <form class="contactform" method="post" action="send_email.php">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <input type="text" name="name" placeholder="YOUR NAME">
+                                <input type="text" id="name" name="name" placeholder="YOUR NAME">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="email" name="email" placeholder="YOUR EMAIL">
+                                <input type="email" id="email" name="email" placeholder="YOUR EMAIL">
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="text" name="subject" placeholder="YOUR SUBJECT">
+                                <input type="text" id="subject" name="subject" placeholder="YOUR SUBJECT">
                             </div>
                             <div class="col-12">
                                 <textarea name="message" placeholder="YOUR MESSAGE"></textarea>
-                                <button type="submit" class="button">
+                                <button type="submit" id="submit" class="button">
                                     <span class="button-text">Send Message</span>
                                     <span class="button-icon fa fa-send"></span>
                                 </button>
+                                <!-- <input type="submit" name="submit" value="Send"> -->
+                                
+                                <!-- <input type="submit" class="button" name="submit" value="Send Message"> -->
                             </div>
                             <div class="col-12 form-message">
                                 <span class="output_message text-center font-weight-600 text-uppercase"></span>
@@ -222,6 +225,4 @@
 
 </body>
 
-
-<!-- Mirrored from slimhamdi.net/tunis/dark/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Mar 2023 06:55:06 GMT -->
 </html>
